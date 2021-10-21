@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(236, 236, 170);
+}
+
+img{
+    width: 700px;
+    height: 200px;
+    margin: 70px auto;
+    display: block;
+    align-content: center;
+}
+
+.CantidadDeDinero{
+    display: block;
+    margin: auto;
+    color: black;
+}
+/* 
+.EligeTuMoneda{
+    margin: 0px 350px;
+}
+
+.EligeTuMoneda2{
+    margin: 0px 800px;
+}
+ */
+ .EligeTuMoneda{
+    margin: auto 330px;
+}
+
+.EligeTuMoneda3{
+    display: block;
+    margin: 30px auto;
+}
