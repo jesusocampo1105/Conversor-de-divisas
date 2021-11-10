@@ -15,20 +15,25 @@ img{
     margin: auto;
     color: black;
 }
-/* 
-.EligeTuMoneda{
-    margin: 0px 350px;
-}
+ 
 
-.EligeTuMoneda2{
-    margin: 0px 800px;
+.container{
+    display: flex;
+    justify-content: space-around;
 }
- */
- .EligeTuMoneda{
-    margin: auto 330px;
-}
-
-.EligeTuMoneda3{
+.Convertir{
     display: block;
     margin: 30px auto;
+}
+.Resultado{
+    display: block;
+    text-align: center;
+    margin: auto;
+    color: black;
+}
+#Convertir{
+    display: block;
+    text-align: center;
+    margin: auto;
+    color: black;
 }

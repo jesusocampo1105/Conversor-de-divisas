@@ -16,16 +16,33 @@
         <img src="./Img/Divisas.jpg" alt="ImgDivisas">
     </main>
     <div>
-        <input class="CantidadDeDinero" type="text" placeholder="Cantidad de dinero"
-            aria-label=".form-control-lg example">
+            <input type="text" id="Convertir">   
         <br>
+        <form>
+          <div class="container">
+      <select id="EligeTuMoneda1">
+        <option id="Dolar">Dolar</option>
+        <option id="Euro">Euro</option>
+        <option id="LibraEsterlina">Libra esterlina</option>
+        <option id="PesoColombiano">Peso colombiano</option>
+        <option id="PesoMexicano">Peso mexicano</option>
+      </select>
+      <select id="EligeTuMoneda2">
+        <option id="Dolar">Dolar</option>
+        <option id="Euro">Euro</option>
+        <option id="LibraEsterlina">Libra esterlina</option>
+        <option id="PesoColombiano">Peso colombiano</option>
+        <option id="PesoMexicano">Peso mexicano</option>
+      </select>
+      
+      </div>
         <br>
-        <input class="EligeTuMoneda" type="text" placeholder="Elige tu moneda">
-
-        <input class="EligeTuMoneda2" type="text" placeholder="Elige tu moneda">
+        <button id="Convertir" onclick="CapturarDatos()">Convertir</button>
         <br>
-        <button id="boton" class="EligeTuMoneda3">Convertir</button>
+        <input id="inputConver"class="Resultado" readonly >
+      </form>
     </div>
+
     <script src="./script.js"></script>
 </body>
 
