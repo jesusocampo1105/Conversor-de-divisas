@@ -30,10 +30,13 @@ let EuroALibraEsterlina = 0.84;
 
 
 function CapturarDatos() {
+    let Resultado = 0;
+    document.getElementById("mostrar").style.display="block";
+
     let EligeTuMoneda1 = document.getElementById("EligeTuMoneda1").value;
     let EligeTuMoneda2 = document.getElementById("EligeTuMoneda2").value;
     let Convertir = document.getElementById("Convertir").value;
-    let Resultado = 0;
+    
 
     if (EligeTuMoneda1 === "Dolar" && EligeTuMoneda2 === "Peso colombiano") {
         Resultado = DolarAPesoColombiano * Convertir;
@@ -68,12 +71,11 @@ function CapturarDatos() {
        Resultado = EuroAPesoColombiano * Convertir;
    }else if (EligeTuMoneda1 === "Euro" && EligeTuMoneda2 === "Dolar") {
        Resultado = EuroADolar * Convertir;
-   }else if (EligeTuMoneda1 === "Euro" && EligeTuMoneda2 === "Libra esterlina") {
+    }else if (EligeTuMoneda1 === "Euro" && EligeTuMoneda2 === "Libra esterlina") {
        Resultado = EuroALibraEsterlina * Convertir;  
-}else{ 
+    }else{ 
     alert("Todos los campos son requeridos");
+    }
+    document.getElementById("Resultado").value = Resultado;
 }
-document.getElementById("inputConver").value = Resultado;
-}
-    
- 
+

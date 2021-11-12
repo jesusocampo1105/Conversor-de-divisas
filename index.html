@@ -16,7 +16,7 @@
         <img src="./Img/Divisas.jpg" alt="ImgDivisas">
     </main>
     <div>
-            <input type="text" id="Convertir">   
+            <input type="text" id="Convertir"placeholder ="Escribe el valor a convertir" size ="25">   
         <br>
         <form>
           <div class="container">
@@ -37,12 +37,16 @@
       
       </div>
         <br>
-        <button id="Convertir" onclick="CapturarDatos()">Convertir</button>
+        <button id="Convertir" onclick="CapturarDatos()" type="button">Convertir</button>
         <br>
-        <input id="inputConver"class="Resultado" readonly >
+        
       </form>
     </div>
-
+    <div id="mostrar">
+      <div>
+        <input id="Resultado" class="Resultado">
+      </div>
+  </div>
     <script src="./script.js"></script>
 </body>
 
